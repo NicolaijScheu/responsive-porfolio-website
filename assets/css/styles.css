@@ -909,6 +909,10 @@ img {
     flex-direction: row;
   }
 
+  .footer{
+    box-shadow: 0 50vh 0 50vh var(--first-color-second);
+  }
+
   
 
 }
