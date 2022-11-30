@@ -306,7 +306,7 @@ img {
 }
 
 .home__social-icon {
-  font-size: 1.25rem;
+  font-size: 2rem;
   color: var(--first-color);
 }
 
@@ -631,6 +631,10 @@ img {
   border: none;
   outline: none;
   padding: 0.25rem 0.5rem 0.5rem 0;
+}
+
+#js-send{
+  cursor: pointer;
 }
 
 /*==================== FOOTER ====================*/
