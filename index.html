@@ -10,9 +10,6 @@
       href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
     />
 
-    <!--==================== SWIPER CSS ====================-->
-    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
-
     <!--==================== CSS ====================-->
     <link rel="stylesheet" href="assets/css/styles.css" />
 
@@ -121,7 +118,9 @@
             <div class="home__data">
               <h1 class="home__title">Hi, my name is Nicolaij</h1>
               <h3 class="home__subtitle">Software-Developer</h3>
-              <p class="home__descripition">Experienced in optimization & automization.</p>
+              <p class="home__descripition">
+                Experienced in optimization & automization.
+              </p>
               <a href="#contact" class="button button--flex">
                 Contact Me <i class="uil uil-message button__icon"></i>
               </a>
@@ -144,7 +143,14 @@
 
         <div class="about__container container grid">
           <div class="about__data">
-            <p class="about__description">My name is Nicolaij Scheu, I am 31 years old. My passion is to automate and optimize processes. I have worked with a lot of different technologies and learned to appreciate Linux. I started working with Docker recently and now am learning about infrastructure as code, container orchestration, monitoring and test automation.</p>
+            <p class="about__description">
+              My name is Nicolaij Scheu, I am 31 years old. My passion is to
+              automate and optimize processes. I have worked with a lot of
+              different technologies and learned to appreciate Linux. I started
+              working with Docker recently and now am learning about
+              infrastructure as code, container orchestration, monitoring and
+              test automation.
+            </p>
 
             <div class="about__info">
               <div>
@@ -451,19 +457,24 @@
             <div class="contact__inputs grid">
               <div class="contact__content">
                 <label for="" class="contact__label">Name</label>
-                <input type="text" class="contact__input" />
+                <input type="text" class="contact__input" id="name-form" />
               </div>
 
               <div class="contact__content">
                 <label for="" class="contact__label">Email</label>
-                <input type="email" class="contact__input" name="subject" />
+                <input
+                  type="email"
+                  class="contact__input"
+                  name="subject"
+                  id="email-form"
+                />
               </div>
 
               <div class="contact__content">
                 <label for="" class="contact__label">Message</label>
                 <textarea
                   name="text"
-                  id=""
+                  id="message-form"
                   cols="0"
                   rows="7"
                   class="contact__input"

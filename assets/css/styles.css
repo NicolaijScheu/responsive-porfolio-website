@@ -113,6 +113,7 @@ body.dark-theme {
   color: var(--first-color);
 }
 
+
 /*==================== BASE ====================*/
 * {
   box-sizing: border-box;
@@ -394,6 +395,13 @@ img {
 .button--flex {
   display: inline-flex;
   align-items: center;
+}
+
+.button__disabled {
+  background-color: var(--first-color-second);
+}
+.button__disabled:hover {
+  background-color: var(--first-color-second);
 }
 
 /*==================== ABOUT ====================*/
